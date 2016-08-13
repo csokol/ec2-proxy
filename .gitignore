@@ -1,0 +1,5 @@
+cloud_formation/
+stacks/
+*.idea/
+*.iml
+.DS_STORE
