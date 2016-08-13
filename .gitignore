@@ -3,3 +3,4 @@ stacks/
 *.idea/
 *.iml
 .DS_STORE
+templates/

@@ -18,7 +18,7 @@ CloudFormation {
 
   Output("InstanceIP") do
     Description("IP of the proxy instance")
-    Value(FnJoin("", ["Instance IP: ", Ref("EIP")]))
+    Value(FnJoin("", [Ref("EIP")]))
   end
 
 }
